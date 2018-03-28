@@ -1,0 +1,126 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB98148F-8EAE-4C00-A090-84C2488F43BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpHosted1</RootNamespace>
+    <AssemblyName>SpHosted1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{d8974d44-cce0-4c83-b0e5-f44aef0a3613}</AppFeaturePartId>
+    <WspPartId>{2cbddf38-a134-4c3b-a3c5-9b395e034455}</WspPartId>
+    <WorkflowPartId>{8787233c-6496-474c-8cb8-26bd1ce1d201}</WorkflowPartId>
+    <CspkgPartId>{200a8ea8-c897-4db8-ab73-fe78774d5c34}</CspkgPartId>
+    <SqlPackagePartId>{846df44d-f35e-4378-80f0-1c4103d4062b}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app\app.61a41ee43cb2c8a947791308ef27fc08.css" />
+    <Content Include="app\Elements.xml" />
+    <Content Include="app\img\quasar-logo-full.c3e8865.svg" />
+    <Content Include="app\index.html" />
+    <Content Include="app\js\0.f2b89321942c43915742.js" />
+    <Content Include="app\js\1.dd0c117aebc8333fc164.js" />
+    <Content Include="app\js\2.4272ba2d9f93daad15ee.js" />
+    <Content Include="app\js\app.27928e52cba85f72306d.js" />
+    <Content Include="app\js\manifest.cff97399c8242253be17.js" />
+    <Content Include="app\js\vendor.25c674576f2775d1b528.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\app.807b98c0f67631bc737d6bd9a9ef6271.css" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\img\quasar-logo-full.c3e8865.svg" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\index.html" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\js\0.f2b89321942c43915742.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\js\1.dd0c117aebc8333fc164.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\js\2.4272ba2d9f93daad15ee.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\js\app.745b32bf6aee551abb97.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\js\manifest.9c24a61b0cc0518997f2.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\js\vendor.25c674576f2775d1b528.js" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\apple-icon-152x152.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\favicon-16x16.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\favicon-32x32.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\icon-128x128.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\icon-192x192.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\icon-256x256.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\icon-384x384.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\icon-512x512.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\icons\ms-icon-144x144.png" />
+    <Content Include="app\sites\cd02dev\SpHosted1\app\statics\quasar-logo.png" />
+    <Content Include="app\statics\icons\apple-icon-152x152.png" />
+    <Content Include="app\statics\icons\favicon-16x16.png" />
+    <Content Include="app\statics\icons\favicon-32x32.png" />
+    <Content Include="app\statics\icons\icon-128x128.png" />
+    <Content Include="app\statics\icons\icon-192x192.png" />
+    <Content Include="app\statics\icons\icon-256x256.png" />
+    <Content Include="app\statics\icons\icon-384x384.png" />
+    <Content Include="app\statics\icons\icon-512x512.png" />
+    <Content Include="app\statics\icons\ms-icon-144x144.png" />
+    <Content Include="app\statics\quasar-logo.png" />
+    <None Include="app\fonts\MaterialIcons-Regular.012cf6a.woff" />
+    <None Include="app\fonts\Roboto-Bold.ad140ff.woff" />
+    <None Include="app\fonts\Roboto-Light.37fbbba.woff" />
+    <None Include="app\fonts\Roboto-Medium.303ded6.woff" />
+    <None Include="app\fonts\Roboto-Regular.081b11e.woff" />
+    <None Include="app\fonts\Roboto-Thin.90d3804.woff" />
+    <None Include="app\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{17e7dd45-09d6-482b-b2a2-bc99cdccc539}</SharePointProjectItemId>
+    </None>
+    <None Include="app\sites\cd02dev\SpHosted1\app\fonts\MaterialIcons-Regular.012cf6a.woff" />
+    <None Include="app\sites\cd02dev\SpHosted1\app\fonts\Roboto-Bold.ad140ff.woff" />
+    <None Include="app\sites\cd02dev\SpHosted1\app\fonts\Roboto-Light.37fbbba.woff" />
+    <None Include="app\sites\cd02dev\SpHosted1\app\fonts\Roboto-Medium.303ded6.woff" />
+    <None Include="app\sites\cd02dev\SpHosted1\app\fonts\Roboto-Regular.081b11e.woff" />
+    <None Include="app\sites\cd02dev\SpHosted1\app\fonts\Roboto-Thin.90d3804.woff" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{cfb37722-d8de-4292-9e50-c419fdfd5bff}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{dbed5457-6e2a-4d30-92fb-c19bc815d7da}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

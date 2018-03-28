@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="app\" Type="ElementManifest" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\app.807b98c0f67631bc737d6bd9a9ef6271.css" Target="app\sites\cd02dev\SpHosted1\app\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\index.html" Target="app\sites\cd02dev\SpHosted1\app\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\fonts\MaterialIcons-Regular.012cf6a.woff" Target="app\sites\cd02dev\SpHosted1\app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\fonts\Roboto-Bold.ad140ff.woff" Target="app\sites\cd02dev\SpHosted1\app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\fonts\Roboto-Light.37fbbba.woff" Target="app\sites\cd02dev\SpHosted1\app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\fonts\Roboto-Medium.303ded6.woff" Target="app\sites\cd02dev\SpHosted1\app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\fonts\Roboto-Regular.081b11e.woff" Target="app\sites\cd02dev\SpHosted1\app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\fonts\Roboto-Thin.90d3804.woff" Target="app\sites\cd02dev\SpHosted1\app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\img\quasar-logo-full.c3e8865.svg" Target="app\sites\cd02dev\SpHosted1\app\img\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\js\0.f2b89321942c43915742.js" Target="app\sites\cd02dev\SpHosted1\app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\js\1.dd0c117aebc8333fc164.js" Target="app\sites\cd02dev\SpHosted1\app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\js\2.4272ba2d9f93daad15ee.js" Target="app\sites\cd02dev\SpHosted1\app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\js\app.745b32bf6aee551abb97.js" Target="app\sites\cd02dev\SpHosted1\app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\js\manifest.9c24a61b0cc0518997f2.js" Target="app\sites\cd02dev\SpHosted1\app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\js\vendor.25c674576f2775d1b528.js" Target="app\sites\cd02dev\SpHosted1\app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\quasar-logo.png" Target="app\sites\cd02dev\SpHosted1\app\statics\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\apple-icon-152x152.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\favicon-16x16.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\favicon-32x32.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\icon-128x128.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\icon-192x192.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\icon-256x256.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\icon-384x384.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\icon-512x512.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="sites\cd02dev\SpHosted1\app\statics\icons\ms-icon-144x144.png" Target="app\sites\cd02dev\SpHosted1\app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\quasar-logo.png" Target="app\statics\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\apple-icon-152x152.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\favicon-16x16.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\favicon-32x32.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\icon-128x128.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\icon-192x192.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\icon-256x256.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\icon-384x384.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\icon-512x512.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="statics\icons\ms-icon-144x144.png" Target="app\statics\icons\" Type="ElementFile" />
+    <ProjectItemFile Source="app.61a41ee43cb2c8a947791308ef27fc08.css" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="index.html" Target="app\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\MaterialIcons-Regular.012cf6a.woff" Target="app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Roboto-Bold.ad140ff.woff" Target="app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Roboto-Light.37fbbba.woff" Target="app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Roboto-Medium.303ded6.woff" Target="app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Roboto-Regular.081b11e.woff" Target="app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\Roboto-Thin.90d3804.woff" Target="app\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="img\quasar-logo-full.c3e8865.svg" Target="app\img\" Type="ElementFile" />
+    <ProjectItemFile Source="js\0.f2b89321942c43915742.js" Target="app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\1.dd0c117aebc8333fc164.js" Target="app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\2.4272ba2d9f93daad15ee.js" Target="app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\app.27928e52cba85f72306d.js" Target="app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\manifest.cff97399c8242253be17.js" Target="app\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.25c674576f2775d1b528.js" Target="app\js\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

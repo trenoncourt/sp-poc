@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="SpHosted1"
+     ProductID="{9c3246b4-ff3d-44ce-97c0-ad5b280a9b0b}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>SpHosted1</Title>
+    <StartPage>~appWebUrl/app/index.html?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests AllowAppOnlyPolicy="false" />
+</App>
